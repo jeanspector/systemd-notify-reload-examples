@@ -1,0 +1,8 @@
+[Unit]
+Description=Notify Demo
+
+[Service]
+Type=notify-reload
+NotifyAccess=all
+ExecStart=/tmp/notify_demo
+
